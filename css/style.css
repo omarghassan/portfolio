@@ -159,6 +159,7 @@ input[type="submit"] {
     background-color: gold;
     border: 2px solid transparent;
     padding: 10px;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 500px) {
@@ -166,11 +167,24 @@ input[type="submit"] {
         width: 100%;
     }
 
+    .info h1 {
+        font-size: 28px;
+    }
+
     .portrait {
         width: 100%;
     }
+
     .skills-items {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skills-item {
+        width: 100%;
+    }
+
+    input, textarea {
+        width: 100%;
     }
   }
